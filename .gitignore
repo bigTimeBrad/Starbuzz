@@ -13,3 +13,4 @@
 .externalNativeBuild
 # Added the .idea file
 .idea/
+.idea/*
