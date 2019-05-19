@@ -8,9 +8,9 @@ public class Drink
     //Drinks are in an array of Drinks. This is so we will not be using a DB
     public static final Drink[] drinks =
     {
-            new Drink("Latte", "",R.drawable.latte),
-            new Drink("","", R.drawable.cappuccino),
-            new Drink("","",R.drawable.filter)
+            new Drink("Latte", "A couple of espresso shots with steamed milk",R.drawable.latte),
+            new Drink("Cappuccino","Esspresso, hot milk, and a streamed milk foam.", R.drawable.cappuccino),
+            new Drink("Filter","Highest quality beans roasted and brewed fresh.",R.drawable.filter)
     };
 
     //Constructor
