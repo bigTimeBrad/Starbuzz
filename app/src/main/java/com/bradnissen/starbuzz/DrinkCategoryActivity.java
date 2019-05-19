@@ -27,11 +27,11 @@ public class DrinkCategoryActivity extends ListActivity {
 
     }
 
-    // Use the onITemClick built-in methods instead of creating our own.
-    public void onItemClick(ListView listView,
-                            View itemView,
-                            int postition,
-                            long id) {
+    /**
+     * Use the onItemClick built-in method instead of creating our own.
+     */
+    public void onItemClick(ListView listView, View itemView, int postition, long id)
+    {
         Intent intent = new Intent(DrinkCategoryActivity.this, DrinkActivity.class);
         intent.putExtra(DrinkActivty.EXTRA_DRINKNO, (int) id);
         startActivity(intent);
