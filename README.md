@@ -12,4 +12,5 @@ This application runs on API 15 (Ice cream sandwich). It will be a small work in
 - XML Layouts
 - Adapters
 - Class as DB (Will use actual DB in next iteration)
+- Logging
 
